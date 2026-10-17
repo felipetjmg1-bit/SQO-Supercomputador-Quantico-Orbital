@@ -1,71 +1,70 @@
 # Supercomputador Quântico Orbital (SQO)
 
-> **Status:** proposta conceitual de pesquisa e desenvolvimento. Este repositório organiza a visão técnica inicial; não declara que exista hardware quântico orbital operacional, armazenamento óptico 5D validado ou integração em produção.
+**Uma proposta conceitual de pesquisa e desenvolvimento** sobre computação quântica em ambiente orbital, armazenamento óptico multidimensional e interoperabilidade soberana de inteligência artificial.
 
-O **Supercomputador Quântico Orbital (SQO)** é uma iniciativa conceitual para estudar uma arquitetura de processamento quântico em ambiente orbital, complementada por módulos ópticos de armazenamento de alta densidade e por serviços de inteligência artificial soberanos. O objetivo desta base é registrar hipóteses, decompor módulos e preparar documentação e protótipos verificáveis.
+> **Maturidade:** conceitual. Este repositório não declara hardware orbital operacional, armazenamento óptico 5D validado, integrações em produção, desempenho medido ou qualificação institucional confirmada.
 
-## Visão técnica
+<p align="center">
+  <img src="assets/architecture/orbital-architecture.svg" alt="Diagrama conceitual do SQO: segmento orbital, processamento quântico e armazenamento óptico em pesquisa, serviços de IA previstos e segmento em solo" width="100%">
+</p>
 
-### Arquitetura orbital e processamento quântico
+## Em poucas palavras
 
-A arquitetura proposta separa a plataforma em segmentos de missão, computação, controle e comunicação: uma camada orbital de operação; um subsistema de processamento quântico a ser especificado; uma camada clássica de controle e orquestração; e enlaces com sistemas em solo. A definição de órbita, payload, tecnologia de qubits, refrigeração, proteção contra radiação, orçamento de energia, latência e segurança ainda depende de estudos e validação experimental.
+O SQO organiza uma visão inicial para estudar a convergência entre um payload de processamento quântico em órbita, módulos ópticos de armazenamento descritos no escopo como “5D”, serviços de inteligência artificial e infraestrutura de solo. A base atual é documental: os subsistemas, interfaces e requisitos dependem de pesquisa, especificação e validação futura.
 
-### Módulos ópticos de armazenamento 5D
+| Eixo | Escopo de estudo | Estado neste repositório |
+|---|---|---|
+| Computação orbital | Payload quântico, controle clássico, operação e ambiente de missão | Conceitual; sem implementação de hardware ou modelo de missão aprovado |
+| Armazenamento óptico 5D | Pesquisa de mídia óptica multidimensional | Hipótese; sem mídia, codificação ou dispositivo validados |
+| Ecossistema de I.A. | Oráculo X-37, Canário-Amarelo e Aurora DREX | Sistemas citados no briefing; nenhuma integração conectada ou implementada |
+| Segmento em solo | Operação, telemetria, orquestração e políticas de segurança | Decomposição preliminar; requisitos em aberto |
 
-O conceito prevê investigar mídia óptica com codificação multidimensional, referida neste projeto como **armazenamento 5D**. As dimensões físicas de codificação, os materiais, o mecanismo de leitura/gravação, a densidade, a retenção e a tolerância ambiental não estão especificados nem validados neste estágio. O diretório `src/optical_storage/` contém apenas pontos de partida documentais, não um driver de mídia ou implementação de armazenamento.
+## Arquitetura proposta
 
-### Integração de I.A. — ecossistema declarado
+A arquitetura lógica está dividida em quatro zonas: **segmento orbital**, **payload de computação**, **armazenamento óptico** e **segmento em solo/serviços**. O desenho é ilustrativo — não é um desenho de engenharia, configuração de voo, estudo de missão nem prova da existência de componentes físicos.
 
-O escopo conceitual prevê interoperabilidade com os sistemas **Oráculo X-37**, **Canário-Amarelo** e **Aurora DREX** por interfaces documentadas e controladas. A existência de contratos de API, protocolos, credenciais ou integrações operacionais não é presumida: nenhum desses sistemas está conectado por este repositório. A pasta `src/integrations/` servirá para adaptadores quando houver especificações autorizadas.
+- **Processamento quântico orbital:** tecnologia de qubits, controle, instrumentação, correção de erros, rejeição de calor, radiação, potência, massa e enlaces ainda precisam ser comparados e especificados.
+- **Armazenamento óptico 5D:** “5D” é o rótulo de uma linha de pesquisa do projeto, não uma especificação estabelecida. Propriedades de codificação, materiais, leitura/gravação, retenção, densidade e resiliência ambiental estão em aberto.
+- **Interoperabilidade de I.A.:** o escopo prevê investigar interfaces com Oráculo X-37, Canário-Amarelo e Aurora DREX. API, protocolos, autorização e contratos não foram fornecidos nem implementados aqui.
 
-## Alinhamento institucional
+Mais detalhes e limitações: [Visão Técnica Inicial](docs/technical-overview.md) · [PDF técnico](docs/pdf/sqo-technical-overview.pdf) · [Estado e plano de maturação](docs/PROJECT_STATUS.md).
 
-Conforme o direcionamento informado pelo proponente, o projeto está vinculado à qualificação da **Impulso Digital Soluções em I.A.** no **Catálogo da Indústria Espacial Brasileira da Agência Espacial Brasileira (AEB)**. Esta descrição registra o alinhamento declarado e **não constitui confirmação de inclusão, qualificação, aprovação ou endosso pela AEB**. A situação institucional deve ser comprovada por documentação oficial antes de ser apresentada como fato confirmado.
+## Alinhamento institucional declarado
 
-## Autoria e liderança
+Conforme informação fornecida pelo proponente, o projeto está vinculado à qualificação da **Impulso Digital Soluções em I.A.** no **Catálogo da Indústria Espacial Brasileira da Agência Espacial Brasileira (AEB)**. Esta declaração registra o alinhamento informado, mas **não confirma inclusão, qualificação, aprovação ou endosso pela AEB**. Evidência oficial datada deverá ser adicionada antes de afirmar status institucional confirmado.
+
+## Liderança
 
 **Felipe Marcos de Abreu Aquino** — CEO & Chief AI Architect.
 
-## Estrutura do repositório
+## Organização
 
 ```text
 .
-├── README.md
-├── docs/
-│   ├── technical-overview.md
-│   └── pdf/
-│       └── sqo-technical-overview.pdf
 ├── assets/
-│   └── architecture/
-│       ├── orbital-architecture.svg
-│       └── README.md
-└── src/
-    ├── processing/
-    │   └── README.md
-    ├── optical_storage/
-    │   └── README.md
-    └── integrations/
-        └── README.md
+│   ├── architecture/       # Diagrama vetorial da arquitetura conceitual
+│   └── social/             # Recursos visuais conceituais para comunicação
+├── docs/
+│   ├── pdf/                # Documento técnico em PDF
+│   ├── decisions/          # Registros de decisões de arquitetura
+│   ├── PROJECT_STATUS.md   # Maturidade, escopo e plano de validação
+│   └── technical-overview.md
+├── src/
+│   ├── integrations/       # Ponto de extensão; sem conectores funcionais
+│   ├── optical_storage/    # Pesquisa e protótipos futuros
+│   └── processing/         # Pesquisa e protótipos futuros
+├── CONTRIBUTING.md
+└── SECURITY.md
 ```
 
-- `src/processing/`: especificações e futuros protótipos de processamento/orquestração.
-- `src/optical_storage/`: pesquisa e protótipos relativos ao conceito de armazenamento óptico 5D.
-- `src/integrations/`: contratos e adaptadores futuros para o ecossistema de I.A. declarado.
-- `docs/`: documentação técnica em Markdown e versão PDF.
-- `assets/architecture/`: diagramas e recursos visuais da arquitetura orbital.
+## Como contribuir
 
-## Estado e próximos passos
+Contribuições devem separar **hipótese**, **simulação** e **resultado experimental**, indicar métodos e fontes e deixar limitações explícitas. Leia [CONTRIBUTING.md](CONTRIBUTING.md) antes de abrir uma proposta. Não inclua credenciais, dados sensíveis, informação classificada ou propriedade intelectual sem autorização.
 
-1. Registrar requisitos de missão e critérios mensuráveis de viabilidade.
-2. Especificar subsistemas, interfaces, modelos de ameaça e limites ambientais.
-3. Definir protocolos de interoperabilidade autorizados para os sistemas externos.
-4. Implementar protótipos reproduzíveis e testes antes de alegar desempenho ou prontidão.
-5. Vincular cada afirmação institucional e técnica a evidência verificável.
+## Segurança e soberania
 
-## Contribuições e segurança
-
-Contribuições devem distinguir claramente hipótese, simulação e resultado experimental, incluir método e evidências reproduzíveis e evitar publicar dados sigilosos, credenciais ou informações sujeitas a controle de acesso. Como este repositório é **público**, não envie segredos, dados pessoais desnecessários, material classificado ou conteúdo proprietário sem autorização.
+O repositório é público; publicação de código ou documentação não equivale a avaliação formal de segurança, conformidade, soberania tecnológica ou prontidão de missão. Orientações para reporte responsável estão em [SECURITY.md](SECURITY.md). Não submeta segredos, dados operacionais restritos ou material sujeito a controle de acesso.
 
 ## Licença
 
-Nenhuma licença de código foi atribuída nesta versão inicial. Até a inclusão de uma licença, todos os direitos permanecem reservados; não presuma permissão para reutilização.
+**Nenhuma licença foi atribuída nesta versão.** Todos os direitos permanecem reservados; a disponibilidade pública não implica permissão de reutilização. Uma licença deverá ser escolhida pelo titular antes de conceder direitos de uso.
