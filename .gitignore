@@ -21,3 +21,13 @@ Thumbs.db
 # Generated temporary files
 *.tmp
 *.swp
+
+# Arquivos locais e artefatos de desenvolvimento
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/

@@ -1,5 +1,7 @@
 # Supercomputador Quântico Orbital (SQO)
 
+![Status: Conceito e documentação](https://img.shields.io/badge/Status-Conceito%20e%20documentação-blue) | [![Licença MIT](https://img.shields.io/github/license/felipetjmg1-bit/SQO-Supercomputador-Quantico-Orbital)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
+
 **Uma proposta conceitual de pesquisa e desenvolvimento** sobre computação quântica em ambiente orbital, armazenamento óptico multidimensional e interoperabilidade soberana de inteligência artificial.
 
 > **Maturidade:** conceitual. Este repositório não declara hardware orbital operacional, armazenamento óptico 5D validado, integrações em produção, desempenho medido ou qualificação institucional confirmada.
@@ -57,6 +59,12 @@ Conforme informação fornecida pelo proponente, o projeto está vinculado à qu
 └── SECURITY.md
 ```
 
+## Patrocínio e apoio
+
+O desenvolvimento aberto exige tempo para manutenção, documentação, testes, revisão de contribuições e resposta a issues. Se este projeto for útil para você ou sua organização, considere apoiar o mantenedor pelo [GitHub Sponsors](https://github.com/sponsors/felipetjmg1-bit). O apoio ajuda a sustentar a continuidade do trabalho; não representa promessa de funcionalidades, prazo de entrega ou suporte comercial.
+
+[![Patrocinar felipetjmg1-bit](https://img.shields.io/badge/Patrocinar%20no-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
+
 ## Como contribuir
 
 Contribuições devem separar **hipótese**, **simulação** e **resultado experimental**, indicar métodos e fontes e deixar limitações explícitas. Leia [CONTRIBUTING.md](CONTRIBUTING.md) antes de abrir uma proposta. Não inclua credenciais, dados sensíveis, informação classificada ou propriedade intelectual sem autorização.
@@ -67,4 +75,4 @@ O repositório é público; publicação de código ou documentação não equiv
 
 ## Licença
 
-**Nenhuma licença foi atribuída nesta versão.** Todos os direitos permanecem reservados; a disponibilidade pública não implica permissão de reutilização. Uma licença deverá ser escolhida pelo titular antes de conceder direitos de uso.
+O código está licenciado sob **MIT**; consulte [LICENSE](LICENSE). A licença não valida as hipóteses técnicas, os diagramas ou qualquer sistema físico descrito neste documento.
