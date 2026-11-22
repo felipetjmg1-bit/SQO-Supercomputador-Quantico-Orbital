@@ -1,5 +1,8 @@
 # Supercomputador Quântico Orbital (SQO)
 
+<p align="center"><img src="PROJECT-OVERVIEW.svg" alt="Diagrama explicativo de SQO · Supercomputador Quântico Orbital" width="100%"></p>
+
+
 ![Status: Conceito e documentação](https://img.shields.io/badge/Status-Conceito%20e%20documentação-blue) | [![Licença MIT](https://img.shields.io/github/license/felipetjmg1-bit/SQO-Supercomputador-Quantico-Orbital)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
 
 **Uma proposta conceitual de pesquisa e desenvolvimento** sobre computação quântica em ambiente orbital, armazenamento óptico multidimensional e interoperabilidade soberana de inteligência artificial.
@@ -33,7 +36,7 @@ Mais detalhes e limitações: [Visão Técnica Inicial](docs/technical-overview.
 
 ## Alinhamento institucional declarado
 
-Conforme informação fornecida pelo proponente, o projeto está vinculado à qualificação da **Impulso Digital Soluções em I.A.** no **Catálogo da Indústria Espacial Brasileira da Agência Espacial Brasileira (AEB)**. Esta declaração registra o alinhamento informado, mas **não confirma inclusão, qualificação, aprovação ou endosso pela AEB**. Evidência oficial datada deverá ser adicionada antes de afirmar status institucional confirmado.
+Conforme informação fornecida pelo proponente, o projeto está vinculado à qualificação da **Impulso Digital Soluções em IA** no **Catálogo da Indústria Espacial Brasileira da Agência Espacial Brasileira (AEB)**. Esta declaração registra o alinhamento informado, mas **não confirma inclusão, qualificação, aprovação ou endosso pela AEB**. Evidência oficial datada deverá ser adicionada antes de afirmar status institucional confirmado.
 
 ## Liderança
 
