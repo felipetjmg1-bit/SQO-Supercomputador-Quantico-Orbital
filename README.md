@@ -79,3 +79,8 @@ O repositório é público; publicação de código ou documentação não equiv
 ## Licença
 
 O código está licenciado sob **MIT**; consulte [LICENSE](LICENSE). A licença não valida as hipóteses técnicas, os diagramas ou qualquer sistema físico descrito neste documento.
+
+
+## Fluxo passo a passo
+
+Consulte o [guia textual com as etapas do projeto](docs/PROCESSO-PASSO-A-PASSO.md). O infográfico acima resume visualmente o mesmo fluxo.
